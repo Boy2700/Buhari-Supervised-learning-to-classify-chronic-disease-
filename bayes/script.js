@@ -25,7 +25,7 @@ document.getElementById('predictionForm').addEventListener('submit', function(ev
 
     // Check if any symptoms are selected
     if (otherSymptoms.length === 0) {
-        alert("Please select a symptom before diagnosis.");
+        alert("Please select a symptom before Classification.");
         return; // Exit the work
     }
 
@@ -39,7 +39,7 @@ document.getElementById('predictionForm').addEventListener('submit', function(ev
     resultDiv.innerHTML = `<div>
         <p>Hello ${name},</p>
         <p>Based on your symptoms, there is a ${probability.toFixed(1)}% chance of having Pneumonia.</p>
-        <p>Your diagnosis stage of Pneumonia is: ${stage}</p>
+        <p>Your Classification stage of Pneumonia is: ${stage}</p>
         <p>Your Age: ${age}</p>
         <p>Address: ${address}</p>
         <button id="printButton">Print</button>
@@ -221,7 +221,7 @@ function predictPneumoniaStage(childFever, adultFever, otherSymptoms) {
         stage = "Early Stage Pneumonia" + "<br>" +
             "Your pneumonia is at an early stage.You should take proper care by resting, staying hydrated, and avoiding exposure to smoke and pollutants." + "<br>" +
             "see your doctor for further evaluation and appropriate treatment." + "<br>" +
-            " Note:Early diagnosis and prompt treatment can prevent complications and lead to a quicker recovery.";
+            " Note:Early Classification and prompt treatment can prevent complications and lead to a quicker recovery.";
     }
     return stage;
 }
