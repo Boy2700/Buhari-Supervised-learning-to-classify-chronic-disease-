@@ -1,0 +1,75 @@
+                body {
+                    background: #311550;
+                    font-family: 'Roboto', sans-serif;
+                }
+                
+                .container {
+                    max-width: 800px;
+                    margin: 50px auto;
+                    padding: 20px;
+                    background-color: #bebdbd;
+                    border: 1px solid #000000;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                }
+                
+                h1 {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    color: rgb(0, 0, 0);
+                    font-weight: bold;
+                }
+                
+                .badge-primary-black {
+                    background-color: black !important;
+                    color: white !important;
+                    /* Ensure the text is visible */
+                }
+                
+                h2 {
+                    margin-top: 30px;
+                    font-size: 1.2em;
+                }
+                
+                fieldset {
+                    margin-bottom: 20px;
+                    border: 1px solid #2948d1;
+                    border-radius: 5px;
+                    padding: 20px;
+                }
+                
+                legend {
+                    font-weight: bold;
+                }
+                
+                label {
+                    margin-right: 10px;
+                    color: rgb(70, 13, 202);
+                }
+                
+                .form-group {
+                    margin-bottom: 40px;
+                    outline: 0px;
+                }
+                
+                button {
+                    display: block;
+                    margin: 0 auto;
+                    padding: 10px 20px;
+                    background-color: #007bff;
+                    color: #bebdbd;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 1em;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+                
+                button:hover {
+                    background-color: #0056b3;
+                }
+                
+                #result {
+                    margin-top: 20px;
+                    text-align: center;
+                }
